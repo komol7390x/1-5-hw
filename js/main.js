@@ -114,3 +114,48 @@
 // } else {
 //     console.log("Noto'g'ri raqam");
 // }
+
+// 9-vazifa Baho tavsifi
+// const num = +prompt("Raqam kiriting?")
+// switch (num) {
+//     case 1:
+//         console.log("Yomon");
+//         break;
+//     case 2:
+//         console.log("Qoniqarsiz");
+//         break;
+//     case 3:
+//         console.log("Qoniqarli");
+//         break;
+//     case 4:
+//         console.log("Yaxshi");
+//         break;
+//     case 5:
+//         console.log("A'lo");
+//         break;
+//     default:
+//         console.log("Noto'g'ri baho");
+//         break;
+// }
+
+
+// 10-vazifa Yil fasllari
+// let fasl = prompt("Fasl nomini kiriting?")
+// fasl = fasl.toLocaleLowerCase()
+// switch (fasl) {
+//     case "qish":
+//         console.log("Dekabr, Yanvar, Fevral");
+//         break;
+//     case "bahor":
+//         console.log("mart,Apriel,May");
+//         break;
+//     case "yoz":
+//         console.log("Iyun, Iyul, Avgust");
+//         break;
+//     case "kuz":
+//         console.log("Setyabr,Oktyabr,Noyabr");
+//         break;
+//     default:
+//         console.log("Bunday fasl yo'q");
+//         break;
+// }
