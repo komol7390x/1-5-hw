@@ -159,3 +159,19 @@
 //         console.log("Bunday fasl yo'q");
 //         break;
 // }
+
+// 11-vazifa Son tavsifi
+// const num = +prompt("Raqam kiriting?")
+// num != 0 ?
+//     (num > 0 ? (num % 2 == 0 ?
+//         console.log("Musbat juft son") : console.log("Musbat toq son")) : (num % 2 == 0 ?
+//             console.log("Manfiy juft son") : console.log("Manfiy toq son"))) : console.log("Nol");
+
+// 12-vazifa Rang kodi
+// const rang = prompt("Rang kiriting?")
+// const color1 = { "qizil": "#FF0000", "yashil": "#00FF00", "kok": "#0000FF" }
+// if (Object.keys(color1).includes(rang)) {
+//     console.log(`Rang kodi: ${color1[rang]}`);
+// } else {
+//     console.log("Bunday rang kodi yo'q");
+// }
