@@ -12,7 +12,6 @@
 
 // 2-vazifa Hafta kunlari
 // const day = +prompt("Raqam kiriting?")
-
 // if (day == 1) {
 //     console.log("Dushanba");
 // } else if (day == 2) {
@@ -33,7 +32,6 @@
 
 // 3-vazifa Yoshga qarab toifa aniqlash
 // const yosh = +prompt("Raqam kiriting?")
-
 // if (yosh >= 0 && yosh < 13) {
 //     console.log("Bola");
 // } else if (yosh < 20) {
@@ -47,17 +45,14 @@
 // }
 
 // 4-vazifa Katta son
-
 // const firstNumber = +prompt("Birinchi soni kiriting")
 // const secondNumber = +prompt("Ikkinchi soni kiriting")
 // const thirdNumber = +prompt("Uchinchi soni kiriting")
-
 // firstNumber > secondNumber ?
 //     console.log("Birinchi raqam katta") : (secondNumber > thirdNumber ?
 //         console.log("Ikkinchi raqam katta") : console.log("Uchinchi raqam katta"))
 
 // 5-vazifa Oy kunlari
-
 // const month = +prompt("Raqam kiriting?")
 // const toq = [1, 3, 5, 7, 8, 10, 12]
 // const juft = [4, 6, 9, 11]
@@ -70,4 +65,18 @@
 //     console.log("28");
 // } else {
 //     console.log("Noto'g'ri raqam");
+// }
+
+// 6-vazifa Login tekshirish
+// const login = prompt("Login kiriting?")
+// const parol = prompt("Parol kiriting?")
+// const users = { "admins": "12345", "user": "password", "admin": "wrong" }
+// if (login in users) {
+//     if (users[login] == parol) {
+//         console.log(`Xush kelibsiz, ${login}`);
+//     } else {
+//         console.log("Parol noto'g'ri");
+//     }
+// } else {
+//     console.log("Login noto'g'ri");
 // }

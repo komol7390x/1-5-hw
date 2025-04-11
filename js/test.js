@@ -1,15 +1,13 @@
-// 5-vazifa Oy kunlari
-
-// const month = +prompt("Raqam kiriting?")
-// const toq = [1, 3, 5, 7, 8, 10, 12]
-// const juft = [4, 6, 9, 11]
-
-// if (toq.includes(month)) {
-//     console.log("31");
-// } else if (juft.includes(month)) {
-//     console.log("30");
-// } else if (month === 2) {
-//     console.log("28");
+// 6-vazifa Login tekshirish
+// const login = prompt("Login kiriting?")
+// const parol = prompt("Parol kiriting?")
+// const users = { "admins": "12345", "user": "password", "admin": "wrong" }
+// if (login in users) {
+//     if (users[login] == parol) {
+//         console.log(`Xush kelibsiz, ${login}`);
+//     } else {
+//         console.log("Parol noto'g'ri");
+//     }
 // } else {
-//     console.log("Noto'g'ri raqam");
+//     console.log("Login noto'g'ri");
 // }
