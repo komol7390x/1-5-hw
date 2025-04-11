@@ -80,3 +80,37 @@
 // } else {
 //     console.log("Login noto'g'ri");
 // }
+
+// 7-vazifa Fasl aniqlovchi
+// const month = +prompt("Raqam kiriting?")
+// const winter = [12, 1, 2]
+// const spring = [3, 4, 5]
+// const summer = [6, 7, 8]
+// const autumn = [9, 10, 11]
+// if (winter.includes(month)) {
+//     console.log("Qish");
+// } else if (spring.includes(month)) {
+//     console.log("Bahor");
+// } else if (summer.includes(month)) {
+//     console.log("Yoz");
+// } else if (autumn.includes(month)) {
+//     console.log("Kuz");
+// } else {
+//     console.log("Noto'g'ri raqam");
+// }
+
+// 8-vazifa Raqamni so'zga o'girish
+// const num = +prompt("Raqam kiriting?")
+// if (num == 1) {
+//     console.log("Bir");
+// } else if(num == 2) {
+//     console.log("Ikki");
+// } else if (num == 3) {
+//     console.log("Uch");
+// } else if (num == 4) {
+//     console.log("To'rt");
+// } else if (num == 5) {
+//     console.log("Besh");
+// } else {
+//     console.log("Noto'g'ri raqam");
+// }
