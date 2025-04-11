@@ -1,14 +1,9 @@
-// 3-vazifa Yoshga qarab toifa aniqlash
-// const yosh = +prompt("Raqam kiriting?")
+// 4-vazifa Katta son
 
-// if (yosh >= 0 && yosh < 13) {
-//     console.log("Bola");
-// } else if (yosh < 20) {
-//     console.log("O'smir");
-// } else if (yosh < 60) {
-//     console.log("Katta");
-// } else if (yosh < 120) {
-//     console.log("Qariya");
-// } else {
-//     console.log("Noto'g'ri raqam");
-// }
+// const firstNumber = +prompt("Birinchi soni kiriting")
+// const secondNumber = +prompt("Ikkinchi soni kiriting")
+// const thirdNumber = +prompt("Uchinchi soni kiriting")
+
+// firstNumber > secondNumber ?
+//     console.log("Birinchi raqam katta") : (secondNumber > thirdNumber ?
+//         console.log("Ikkinchi raqam katta") : console.log("Uchinchi raqam katta"))
