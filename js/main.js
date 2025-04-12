@@ -189,3 +189,8 @@
 //     sum += num % 10
 //     num = Math.floor(num / 10)
 // } console.log(sum);
+
+// 15-vazifa Teskari satr
+// const text = prompt("So'z kiriting?")
+// let text2 = text.split("").reverse().join("")
+// console.log(text2);
