@@ -1,4 +1,4 @@
-// 18-vazifa Ichma-ich loop
+// 20-vazifa Ichma-ich loop
 // let num = +prompt("Raqam kiriting?")
 // let sum=1
 // for (let i = 0; i < num; i++){
