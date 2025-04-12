@@ -1,10 +1,7 @@
-// 12-vazifa Rang kodi
-// const rang = prompt("Rang kiriting?")
-// const color1 = { "qizil": "#FF0000", "yashil": "#00FF00", "kok": "#0000FF" }
-// if (Object.keys(color1).includes(rang)) {
-//     console.log(`Rang kodi: ${color1[rang]}`);
-// } else {
-//     console.log("Bunday rang kodi yo'q");
-// }
-
-
+// 14-vazifa Raqamlar yig'indisi
+let num = +prompt("Raqam kiriting?")
+let sum=0
+while (num > 0) {
+    sum += num % 10
+    num=Math.floor(num/10)
+}console.log(sum);
