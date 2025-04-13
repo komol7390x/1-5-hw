@@ -258,7 +258,6 @@
 //     }
 //     return character
 // }
-
 // const name1 = prompt("Qahramon ismini kiriting?")
 // const power1 = prompt("Qahramon kuchini kiriting?")
 // const info1=createCharacter(name1,power1)
