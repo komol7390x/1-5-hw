@@ -1,21 +1,16 @@
-// 24-vazifa Telegram Bot
-// function botReplay(ask = " ") {
-//     let ask2 = ask.split("");
-//     const len = ask.length;
-//     let quetion = "Tushunmadim";
-//     for (let i = 0; i < len; i++) {
-//         if (ask2[i] == "?") {
-//             quetion = "Ha";
-//         }
-//     } let res = {
-//         message: ask,
-//         reply: quetion,
-//         time: "12:30"
+// 25-vazifa YouTube Video
+// function createVideo(text = "JavaScript Tutorial", time = "10:15") {
+//     res = {
+//         title: text,
+//         duration: time,
+//         views: (Math.floor(Math.random() * 20_000) + 1),
+//         likes: (Math.floor(Math.random() * 10_000) + 1),
+//         views: (Math.floor(Math.random() * 1_000) + 1)
 //     }
 //     return res
 // }
-// const ask = "Bugun havo yaxshimi?"
-// let info = botReplay(ask)
-// console.log(info);
+// let info=createVideo()
+// console.log((info));
+
 
 
