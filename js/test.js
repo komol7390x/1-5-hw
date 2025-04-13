@@ -1,21 +1,28 @@
-// 21-vazifa Pizza Buyurtma
-// function createPost(rasm, text,teg) {
-//     const like1 = Math.floor(Math.random() * 1000) + 1;
-//     const views1 = Math.floor(Math.random() * 1000) + 1;
-//     Post = {
-//         image: rasm,
-//         title: text,
-//         tags: teg,
-//         like: like1,
-//         views:views1
+// 23-vazifa Pizza Buyurtma
+// function orderPizza(olcham, izoh) {
+//     if (olcham == "medium") {
+//         narx = 65_000;
+//         vaqt = 20;
+//     } else if (olcham == "big") {
+//         narx = 85_000;
+//         vaqt = 35;
+//     } else if (olcham == "small") {
+//         narx = 55_000;
+//         vaqt = 15;
+//     } else {
+//         narx = "O'lcham xato";
+//         vaqt = "O'lcham xato";
 //     }
-//     return Post
+//     Pizza = {
+//         size: olcham,
+//         toppings: izoh,
+//         price: narx,
+//         time: vaqt
+//     }
+//     return Pizza
 // }
-// const image1 = prompt("Rasm linkni kiriting?")
-// const title1 = prompt("Sarlavha kiriting kiriting?")
-// let tags1=[]
-// for (let i = 0; i < 3; i++){
-//     tags1[i]=prompt(`${i+1}. Tagni kiriting?`)
-// }
-// const info1 = createPost(image1, title1, tags1)
-// console.log(info1);
+// const size1 = "big";
+// const toping1 = ["cheese", "tomato"];
+// const info = orderPizza(size1, toping1)
+// console.log(info);
+
