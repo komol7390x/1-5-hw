@@ -276,8 +276,8 @@
 //     }
 //     return Post
 // }
-// const image1 = prompt("Rasm linkni kiriting?")
-// const title1 = prompt("Sarlavha kiriting kiriting?")
+// const image1 = "image.jpg"
+// const title1 = "Bugun zo'r kun"
 // let tags1=[]
 // for (let i = 0; i < 3; i++){
 //     tags1[i]=prompt(`${i+1}. Tagni kiriting?`)

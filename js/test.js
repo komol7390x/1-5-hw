@@ -1,4 +1,4 @@
-// 21-vazifa Instagram Post
+// 21-vazifa Pizza Buyurtma
 // function createPost(rasm, text,teg) {
 //     const like1 = Math.floor(Math.random() * 1000) + 1;
 //     const views1 = Math.floor(Math.random() * 1000) + 1;
