@@ -1,28 +1,21 @@
-// 23-vazifa Pizza Buyurtma
-// function orderPizza(olcham, izoh) {
-//     if (olcham == "medium") {
-//         narx = 65_000;
-//         vaqt = 20;
-//     } else if (olcham == "big") {
-//         narx = 85_000;
-//         vaqt = 35;
-//     } else if (olcham == "small") {
-//         narx = 55_000;
-//         vaqt = 15;
-//     } else {
-//         narx = "O'lcham xato";
-//         vaqt = "O'lcham xato";
+// 24-vazifa Telegram Bot
+// function botReplay(ask = " ") {
+//     let ask2 = ask.split("");
+//     const len = ask.length;
+//     let quetion = "Tushunmadim";
+//     for (let i = 0; i < len; i++) {
+//         if (ask2[i] == "?") {
+//             quetion = "Ha";
+//         }
+//     } let res = {
+//         message: ask,
+//         reply: quetion,
+//         time: "12:30"
 //     }
-//     Pizza = {
-//         size: olcham,
-//         toppings: izoh,
-//         price: narx,
-//         time: vaqt
-//     }
-//     return Pizza
+//     return res
 // }
-// const size1 = "big";
-// const toping1 = ["cheese", "tomato"];
-// const info = orderPizza(size1, toping1)
+// const ask = "Bugun havo yaxshimi?"
+// let info = botReplay(ask)
 // console.log(info);
+
 
