@@ -1,15 +1,21 @@
-// 21-vazifa O'yin Personaji
-// function createCharacter(ism, kuch) {
-//     const daraja = Math.floor(Math.random() * 10) + 1;
-//     character = {
-//         name: ism,
-//         power: kuch,
-//         level: daraja,
-//         info:`${daraja}-darajali ${ism}, kuchi: ${kuch}`
+// 21-vazifa Instagram Post
+// function createPost(rasm, text,teg) {
+//     const like1 = Math.floor(Math.random() * 1000) + 1;
+//     const views1 = Math.floor(Math.random() * 1000) + 1;
+//     Post = {
+//         image: rasm,
+//         title: text,
+//         tags: teg,
+//         like: like1,
+//         views:views1
 //     }
-//     return character
+//     return Post
 // }
-// const name1 = prompt("Qahramon ismini kiriting?")
-// const power1 = prompt("Qahramon kuchini kiriting?")
-// const info1=createCharacter(name1,power1)
+// const image1 = prompt("Rasm linkni kiriting?")
+// const title1 = prompt("Sarlavha kiriting kiriting?")
+// let tags1=[]
+// for (let i = 0; i < 3; i++){
+//     tags1[i]=prompt(`${i+1}. Tagni kiriting?`)
+// }
+// const info1 = createPost(image1, title1, tags1)
 // console.log(info1);
