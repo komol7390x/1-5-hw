@@ -1,22 +1,12 @@
-// 25-vazifa Spotify Track
-// function createTrack(text = "Shape of You", author = "Ed Sheeran") {
-//     list = (Math.floor(Math.random() * 10_000) + 1);
-//     if (list > 5000) {
-//             pop=true
-//     } else {
-//         pop=false
-//     }
-//     res = {
-//         title: text,
-//         artist: author,
-//         duration:"3:54",
-//         listens: list,
-//         isPoplar:pop
-//     }
-//     return res
+// 26-vazifa O'yin Personaji
+// function createVideo(title,duration) {
+//     this.title= title;
+//     this.duration=duration;
+//     this.views= (Math.floor(Math.random() * 20_000) + 1);
+//     this.likes = (Math.floor(Math.random() * 10_000) + 1);
+//     this.views = (Math.floor(Math.random() * 1_000) + 1);
 // }
-// let info=createTrack()
+// let info = new createVideo("JavaScript Tutorial", "10:15")
 // console.log((info));
-
 
 

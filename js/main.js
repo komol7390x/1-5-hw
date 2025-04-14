@@ -248,103 +248,73 @@
 // }
 
 // 21-vazifa O'yin Personaji
-// function createCharacter(ism, kuch) {
-//     const daraja = Math.floor(Math.random() * 10) + 1;
-//     character = {
-//         name: ism,
-//         power: kuch,
-//         level: daraja,
-//         info:`${daraja}-darajali ${ism}, kuchi: ${kuch}`
-//     }
-//     return character
+// function createCharacter(name, power) {
+//     this.name = name;
+//     this.power = power;
+//     this.level = Math.floor(Math.random() * 10) + 1;
+//     this.info=`${this.level}-darajali ${name}, Kuchi: ${power}`
 // }
-// const name1 = prompt("Qahramon ismini kiriting?")
-// const power1 = prompt("Qahramon kuchini kiriting?")
-// const info1=createCharacter(name1,power1)
-// console.log(info1);
+// let character = new createCharacter("Thanos", "100");
+// console.log(character);
 
 // 22-vazifa Instagram Post
-// function createPost(rasm, text,teg) {
-//     const like1 = Math.floor(Math.random() * 1000) + 1;
-//     const views1 = Math.floor(Math.random() * 1000) + 1;
-//     Post = {
-//         image: rasm,
-//         title: text,
-//         tags: teg,
-//         like: like1,
-//         views:views1
-//     }
-//     return Post
+// function createPost(image, title, tags) {
+//     this.image = image;
+//     this.title = title;
+//     this.tags = tags;
+//     this.likes = Math.floor(Math.random() * 1000) + 1
+//     this.views=Math.floor(Math.random()*1000)+1
 // }
-// const image1 = "image.jpg"
-// const title1 = "Bugun zo'r kun"
-// let tags1=[]
-// for (let i = 0; i < 3; i++){
-//     tags1[i]=prompt(`${i+1}. Tagni kiriting?`)
-// }
-// const info1 = createPost(image1, title1, tags1)
-// console.log(info1);
+// let info = new createPost("photo.jpg", "Bugun zo'r kun", ["fun", "holiday"])
+// console.log(info)
 
 // 23-vazifa Pizza Buyurtma
-// function orderPizza(olcham, izoh) {
-//     if (olcham == "medium") {
-//         narx = 65_000;
-//         vaqt = 20;
-//     } else if (olcham == "big") {
-//         narx = 85_000;
-//         vaqt = 35;
-//     } else if (olcham == "small") {
-//         narx = 55_000;
-//         vaqt = 15;
-//     } else {
-//         narx = "O'lcham xato";
-//         vaqt = "O'lcham xato";
+// function orderPizza(size, toppings) {
+//     if (size == "medium") {
+//             narx = 65_000;
+//             vaqt = 20;
+//         } else if (size == "big") {
+//             narx = 85_000;
+//             vaqt = 35;
+//         } else if (size == "small") {
+//             narx = 55_000;
+//             vaqt = 15;
+//         } else {
+//             narx = "O'lcham xato";
+//             vaqt = "O'lcham xato";
 //     }
-//     Pizza = {
-//         size: olcham,
-//         toppings: izoh,
-//         price: narx,
-//         time: vaqt
-//     }
-//     return Pizza
+//     this.size = size;
+//     this.toppings = toppings;
+//     this.price = narx;
+//     this.time = vaqt;
+
 // }
-// const size1 = "big";
-// const toping1 = ["cheese", "tomato"];
-// const info = orderPizza(size1, toping1)
-// console.log(info);
+// let pizza = new orderPizza("medium", ["cheese", "tomato"])
+// console.log(pizza);
 
 // 24-vazifa Telegram Bot
-// function botReplay(ask = " ") {
-//     let ask2 = ask.split("");
-//     const len = ask.length;
-//     let quetion = "Tushunmadim";
-//     for (let i = 0; i < len; i++) {
-//         if (ask2[i] == "?") {
-//             quetion = "Ha";
-//         }
-//     } let res = {
-//         message: ask,
-//         reply: quetion,
-//         time: "12:30"
+// function botReply(message="") {
+//     if (message.includes("?")) {
+//         reply="Ha"
+//     } else {
+//         reply="Tushundim"
 //     }
-//     return res
+//     this.message = message;
+//     this.reply = reply;
+//     this.time="12:30"
 // }
-// const ask = "Bugun havo yaxshimi?"
-// let info = botReplay(ask)
+// let info = new botReply("Bugun havo yaxshimi?")
 // console.log(info);
 
 // 25-vazifa YouTube Video
-// function createVideo(text = "JavaScript Tutorial", time = "10:15") {
-//     res = {
-//         title: text,
-//         duration: time,
-//         views: (Math.floor(Math.random() * 20_000) + 1),
-//         likes: (Math.floor(Math.random() * 10_000) + 1),
-//         views: (Math.floor(Math.random() * 1_000) + 1)
-//     }
-//     return res
+// function createVideo(title,duration) {
+//     this.title= title;
+//     this.duration=duration;
+//     this.views= (Math.floor(Math.random() * 20_000) + 1);
+//     this.likes = (Math.floor(Math.random() * 10_000) + 1);
+//     this.views = (Math.floor(Math.random() * 1_000) + 1);
 // }
-// let info=createVideo()
+// let info = new createVideo("JavaScript Tutorial", "10:15")
 // console.log((info));
 
 // 26-vazifa Spotify Track
