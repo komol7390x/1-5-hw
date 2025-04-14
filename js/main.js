@@ -318,13 +318,30 @@
 // console.log((info));
 
 // 26-vazifa Spotify Track
+// function createTrack(title,artist) {
+//     list = (Math.floor(Math.random() * 10_000) + 1);
+//     if (list > 5000) {
+//         pop = true;
+//     } else {
+//         pop = false;
+//     }
+//     this.title = title;
+//     this.artist = artist;
+//     this.listens = list;
+//     this.duration = "3:54";
+//     this.isPopular=pop
+// }
+// let info = new createTrack("Shape of You", "Ed Sheeran")
+// console.log((info));
+
+// 27-vazifa Film Rating
 // function rateMovie(title,year,ratings) {
 //     let averageRating = 0
 //     let len = ratings.length
 //     for (let i = 0; i < len; i++){
 //         averageRating+=ratings[i]
 //     }
-//     averageRating /=len 
+//     averageRating /=len
 //     if (averageRating > 8) {
 //         status1="Ajoyib"
 //     } else {
@@ -338,3 +355,4 @@
 // }
 // let info = new rateMovie("Avatar", 2009, [9, 8, 10, 7, 9])
 // console.log((info));
+
