@@ -318,21 +318,23 @@
 // console.log((info));
 
 // 26-vazifa Spotify Track
-// function createTrack(text = "Shape of You", author = "Ed Sheeran") {
-//     list = (Math.floor(Math.random() * 10_000) + 1);
-//     if (list > 5000) {
-//             pop=true
+// function rateMovie(title,year,ratings) {
+//     let averageRating = 0
+//     let len = ratings.length
+//     for (let i = 0; i < len; i++){
+//         averageRating+=ratings[i]
+//     }
+//     averageRating /=len 
+//     if (averageRating > 8) {
+//         status1="Ajoyib"
 //     } else {
-//         pop=false
+//         status1="Yaxshi"
 //     }
-//     res = {
-//         title: text,
-//         artist: author,
-//         duration:"3:54",
-//         listens: list,
-//         isPoplar:pop
-//     }
-//     return res
+//     this.title = title;
+//     this.year = year;
+//     this.ratings;
+//     this.averageRating = averageRating;
+//     this.Status=status1
 // }
-// let info=createTrack()
+// let info = new rateMovie("Avatar", 2009, [9, 8, 10, 7, 9])
 // console.log((info));
